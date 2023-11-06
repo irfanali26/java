@@ -1,0 +1,35 @@
+  **String Manipulation, Arrays and Control Statements**
+
+*Initialize a string variable student Data containing a list of student names and their scores in the format of name score,".
+Split the studen tData string into individual records using the split(", ") method, creating an array called `records`.**
+
+*Create two ArrayLists, `studentNames` and `studentScores`, to store student names and their respective scores.**
+ 
+ *Iterate through the `records` array to process each student's data individually. Inside the loop:*
+
+Split each `record` into two parts (name and score) using the ":" delimiter.
+
+Check if there are exactly two parts; if not, print an error message and exit the program.
+
+Add the student's name to the `studentNames` list.
+
+Try to parse the score as an integer and add it to the `studentScores` list. If parsing fails,
+ print an error message and exit the program.
+
+After processing all records, calculate various statistics about the students:
+
+Calculate the total number of students (size of `studentNames` list).
+
+Calculate the total score of all students.
+
+Track the highest and lowest scores and their respective scorers.
+
+Print out the calculated statistics:
+
+Total number of students.
+
+Average score of all students.
+
+Highest score and the student who achieved it.
+
+Lowest score and the student who achieved it.
