@@ -1,0 +1,40 @@
+                                          **CALCULATOR**
+ The program begins by importing the necessary Java libraries, including `java.util.Scanner`.
+
+ It defines a `Calculator` class with the `main` method as the entry point of the program.
+
+ Inside the `main` method, a `Scanner` object named `input` is created to read user input.
+Three variables, `num1`, `num2`, and `result`, are declared to store numeric values, and a variable
+
+`operator` is declared to store the operator for calculations.
+
+ A welcome message is displayed to the user.
+
+ The program enters a continuous loop using a `while (true)` statement, allowing the user to perform multiple
+ calculations until they choose to exit.
+
+ The program prompts the user to enter an expression (e.g., "5 + 10") or type "exit" to quit.
+
+ The user's input is read as a string into the `expression` variable.
+
+ If the user enters "exit," the program displays a farewell message and exits the loop and program.
+
+ The input expression is split into tokens (separated by spaces), and the tokens are stored in the `tokens` array.
+
+If the number of tokens is not equal to 3, an error message is displayed, and the program continues to the next iteration of the loop.
+
+ The program attempts to parse the first number, operator, and second number from the tokens. If this parsing is successful, these values 
+are stored in the `num1`, `operator`, and `num2` variables, respectively. If an error occurs (e.g., invalid numbers or operator), an error message is 
+displayed, and the program continues to the next iteration of the loop.
+
+Depending on the operator, the program performs the corresponding calculation using a `switch` statement. It supports addition, subtraction, multiplication, 
+and division. Division by zero is also checked to avoid errors.
+
+The result of the calculation is displayed to the user in the format "Result: num1 operator num2 = result."
+
+ The program then returns to the start of the loop, allowing the user to enter another expression or exit by typing "exit."
+
+ If the user types "exit," the program displays a farewell message and terminates
+ 
+
+
